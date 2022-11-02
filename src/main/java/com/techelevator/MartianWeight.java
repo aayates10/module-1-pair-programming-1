@@ -18,7 +18,15 @@ Enter a series of Earth weights (space-separated): 98 235 185
  */
 public class MartianWeight {
 
+
 	public static void main(String[] args) {
+		//program asks for a series of Earth Weights with spaces included
+
+		//user enters each weight
+
+		//program calculates Wm = We* 0.378
+
+		//solution is returned with We + " lbs. on Earth is Wm + " lbs.on Mars.
 
 	}
 

@@ -11,6 +11,24 @@ package com.techelevator;
  */
 public class MakeChange {
 
+	//program asks user for the total amount of the bill
+
+	//user inputs the total amount
+
+	//program asks user for the amount tendered
+
+	//user inputs the amount tendered
+
+	//the amount tendered is calculated by subtracting the amount tendered from the total bill
+
+	//if the change is greater than 0
+
+	//print "The change required is $" + solution
+
+	//else
+
+	//print "The amount tendered is short $" + solution
+
 	public static void main(String[] args) {
 
 	}
