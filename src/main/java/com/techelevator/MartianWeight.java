@@ -30,7 +30,7 @@ double Earth Weight2
 double Earth Weight3
 **All Equal -0- and could amount to any number
 */
-
+//user enters each weight
 		double EarthWeight1 = 0;
 		System.out.println("Enter Earth Weight #1");
 		input = scan.nextLine();
@@ -55,21 +55,8 @@ printf = flat with more than one Data type
 		System.out.printf("%.1f Earth lbs.--is-- %.1f lbs. on Mars\n", EarthWeight1, (EarthWeight1 *.378) );
 		System.out.printf("	%.1f lbs. on Earth ------ %.1f lbs. on Mars \n", EarthWeight2, (EarthWeight2 * .378) );
 		System.out.printf("		%.1f lbs. on Earth ------ %.1f lbs. on Mars \n", EarthWeight3, (EarthWeight3 * .378) );
-
-
-
-
-
-
-
 		}
 	}
-
-
-
-//user enters each weight
-
-//program calculates Wm = We* 0.378
 
 
 

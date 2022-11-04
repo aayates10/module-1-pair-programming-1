@@ -19,17 +19,13 @@ public class MakeChange {
 
 	//program asks user for the total amount of the bill
 		double Bill = 0;
-
-
 	//user inputs the total amount
 		System.out.println("Total Bill");
 		input = keyboard.nextLine();
 		Bill = Double.parseDouble(input);
 
-
 	//program asks user for the amount tendered
 		double Tendered = 0;
-
 
 	//user inputs the amount tendered
 		System.out.println("Amount Tendered");
@@ -38,26 +34,12 @@ public class MakeChange {
 
 		double Change = 0;
 
+		//program calculates and prints
+
 		Change = (Tendered - Bill);
 		System.out.printf("Bill total $%.2f  ",Bill);
 		System.out.printf("Amount tendered $%.2f  ",Tendered);
 		System.out.printf("Change Amount $%.2f",Change);
-
-
-	//the amount tendered is calculated by subtracting the amount tendered from the total bill
-
-
-
-
-	//if the change is greater than 0
-
-	//print "The change required is $" + solution
-
-	//else
-
-	//print "The amount tendered is short $" + solution
-
-
 	}
 
 }
