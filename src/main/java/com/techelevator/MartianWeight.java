@@ -1,5 +1,7 @@
 package com.techelevator;
 
+import java.util.Scanner;
+
 /*
 In case you've ever pondered how much you weigh on Mars, here's the calculation:
  	Wm = We * 0.378
@@ -20,14 +22,70 @@ public class MartianWeight {
 
 
 	public static void main(String[] args) {
-		//program asks for a series of Earth Weights with spaces included
+		Scanner scan = new Scanner(System.in);
+		String input = "";
+/*program asks for a series of Earth Weights with spaces included
+double Earth Weight1
+double Earth Weight2
+double Earth Weight3
+**All Equal -0- and could amount to any number
+*/
 
-		//user enters each weight
+		double EarthWeight1 = 0;
+		System.out.println("Enter Earth Weight #1");
+		input = scan.nextLine();
+		EarthWeight1 = Double.parseDouble(input);
 
-		//program calculates Wm = We* 0.378
+		double EarthWeight2 = 0;
+		System.out.println("Enter Earth Weight #2");
+		input = scan.nextLine();
+		EarthWeight2 = Double.parseDouble(input);
 
-		//solution is returned with We + " lbs. on Earth is Wm + " lbs.on Mars.
 
+		double EarthWeight3  = 0;
+		System.out.println("Enter Earth Weight #3");
+		input = scan.nextLine();
+		EarthWeight3 = Double.parseDouble(input);
+
+/*solution is returned with We + " lbs. on Earth is Wm + " lbs.on Mars
+/n=next line
+%1f = on decimal place in float
+printf = flat with more than one Data type
+*/
+		System.out.printf("%.1f Earth lbs.--is-- %.1f lbs. on Mars\n", EarthWeight1, (EarthWeight1 *.378) );
+		System.out.printf("	%.1f lbs. on Earth ------ %.1f lbs. on Mars \n", EarthWeight2, (EarthWeight2 * .378) );
+		System.out.printf("		%.1f lbs. on Earth ------ %.1f lbs. on Mars \n", EarthWeight3, (EarthWeight3 * .378) );
+
+
+
+
+
+
+
+		}
 	}
 
-}
+
+
+//user enters each weight
+
+//program calculates Wm = We* 0.378
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
