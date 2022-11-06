@@ -47,14 +47,15 @@ double Earth Weight3
 		input = scan.nextLine();
 		EarthWeight3 = Double.parseDouble(input);
 
-/*solution is returned with We + " lbs. on Earth is Wm + " lbs.on Mars
+/*solution is returned with value, Earth lbs + --is--. value, on Earth is Wm + " lbs.on Mars
 /n=next line
-%1f = on decimal place in float
-printf = flat with more than one Data type
+%1f = on decimal place in float format
+printf = flat format with more than one Data type
+End return 3 seperate printout of earth lbs to Mars lbs. ----EarthWeight * .378 = MarsWeight
 */
 		System.out.printf("%.1f Earth lbs.--is-- %.1f lbs. on Mars\n", EarthWeight1, (EarthWeight1 *.378) );
-		System.out.printf("	%.1f lbs. on Earth ------ %.1f lbs. on Mars \n", EarthWeight2, (EarthWeight2 * .378) );
-		System.out.printf("		%.1f lbs. on Earth ------ %.1f lbs. on Mars \n", EarthWeight3, (EarthWeight3 * .378) );
+		System.out.printf("	%.1f lbs. on Earth --is-- %.1f lbs. on Mars \n", EarthWeight2, (EarthWeight2 * .378) );
+		System.out.printf("		%.1f lbs. on Earth --is-- %.1f lbs. on Mars \n", EarthWeight3, (EarthWeight3 * .378) );
 		}
 	}
 
